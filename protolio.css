@@ -1,0 +1,151 @@
+.head{
+    margin:40px;
+    height: 100vh;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3);
+    background-color: rgb(255,255,255);
+    transition: transform 0.5s;
+
+   
+}
+
+.head:hover{
+    transform: translateX(4px);
+   background-color:
+rgb(0, 250, 37)
+
+   
+}
+
+.navbar{
+    
+    padding-top: 4px;
+    float: right;
+    background-color: blue;
+    width: 100%;
+   
+    
+}
+
+.name{
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-family: cursive;
+     
+    margin-left: 3vw;
+    font-size: 20px;
+    margin-top: 3px;
+    position: relative;
+  
+}
+
+.navbar a{
+    width: 10vw;
+    margin-left:3vw; 
+    margin-right: 5vw;
+    color: black;
+   text-decoration: none;
+   color: white;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 20px;
+    
+  
+}
+
+.image{
+    width: 25vw;
+    width: 25vw;
+    height: 70vh;
+    background-image:linear-gradient(to top,rgba(250, 250, 250,0.1),rgba(255, 250, 250,0)),url(marshmello.jpg);
+    -webkit-clip-path: ellipse(47% 48% at 48% 51%);
+clip-path: ellipse(47% 48% at 48% 51%);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 8vh;
+    margin-left: 60vw;
+    
+}
+
+.navbar a:hover{
+    color:palegreen;
+    text-decoration: underline;
+}
+
+.name:hover{
+    color:blue;
+}
+
+.word{
+    float: left;
+    margin-top: 10vh;
+    font-family: cursive;
+    font-weight: 1000;
+    font-size: 40px;
+    margin-left: 12vh;
+    margin-top: 16vh;
+    
+}
+
+.my{
+    color: blue;
+}
+
+.button{
+    margin-left: 4vw;
+    background-color: blue;
+    height: 5vh;
+    width: 8vw;
+    color: white;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.button:hover{
+    background-color: green;
+    
+}
+
+
+.head_2{
+    margin:40px;
+    height: 100vh;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3);
+    background-color: rgb(255,255,255);
+    transition: transform 0.5s;
+
+   
+}
+
+.about{
+    
+    color: blue;
+    font-size: 30px;
+}
+
+.myself{
+    font-size: 20px;
+}
+
+.skills{
+    font-size: 20px;
+}
+
+.skill_list{
+    color:blue;
+    font-size: 23px;
+    position: absolute;
+    
+}
+
+.skill_list_2{
+    float: right;
+    position: relative;
+     color:blue;
+    font-size: 23px;
+    margin-right: 60vw;
+   
+}
